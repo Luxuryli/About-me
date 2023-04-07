@@ -161,7 +161,7 @@ nav {
 }
 
 .checkbox-label {
-  background-color: #111;
+  background-color: inherit;
   width: 50px;
   height: 26px;
   border-radius: 50px;
@@ -180,7 +180,7 @@ nav {
 }
 
 .fa-sun {
-  color: gold;
+  color: whitesmoke;
 }
 
 .checkbox-label .ball {
@@ -633,7 +633,7 @@ h3 {
   }
   
   .checkbox-label {
-    background-color: #111;
+    background-color: inherit;
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -652,7 +652,7 @@ h3 {
   }
   
   .fa-sun {
-    color: gold;
+    color: whitesmoke;
   }
   
   .checkbox-label .ball {
@@ -1107,7 +1107,7 @@ h3 {
   }
   
   .checkbox-label {
-    background-color: #111;
+    background-color: inherit;
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -1126,7 +1126,7 @@ h3 {
   }
   
   .fa-sun {
-    color: gold;
+    color: whitesmoke;
   }
   
   .checkbox-label .ball {
@@ -1503,7 +1503,7 @@ h3 {
   }
   
   .checkbox-label {
-    background-color: #111;
+    background-color: inherit;
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -1520,25 +1520,27 @@ h3 {
 
   .fa-moon {
     color: gold;
+    margin-left: 5px;
   }
   
   .fa-sun {
-    color: gold;
+    color: whitesmoke;
+    margin-left: 20px;
   }
   
 .checkbox-label .ball {
   background-color: whitesmoke;
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 2px;
-  top: 2px;
+  top: -1px;
   border-radius: 50%;
   transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .checkbox-label .ball {
-  transform: translateX(24px);
+  transform: translateX(30px);
   background-color: gold;
 }
   
@@ -1575,7 +1577,7 @@ h3 {
     color: whitesmoke;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 0.1em;
+    line-height: 2em;
     width: 100%;
     text-align: center;
     letter-spacing: 0.15em;
@@ -1594,7 +1596,7 @@ h3 {
     border: solid;
     border-radius: 50px;
     border-color: gold;
-    width: 20%;
+    width: 25%;
     padding: 10px 10px 10px 10px;
     margin-top: 40px;
     text-align: center;
@@ -1610,7 +1612,7 @@ h3 {
   #about {
     display: flex;
     flex-direction: row;
-    padding: 200px 70px 200px 70px;
+    padding: 200px 50px 200px 50px;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -1879,6 +1881,7 @@ h3 {
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    top: 5px;
   }
   
   .behance {
@@ -1899,9 +1902,9 @@ h3 {
   }
   
   .checkbox-label {
-    background-color: #111;
+    background-color: inherit;
     width: 40px;
-    height: 20px;
+    height: 25px;
     border-radius: 50px;
     position: relative;
     padding: 5px;
@@ -1909,32 +1912,38 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: -4px;
+    top: -8px;
     left: 3px;
   }
 
 
   .fa-moon {
     color: gold;
+    margin-top: 12px;
+    margin-left: 5px;
+    /* font-size: 12px; */
   }
   
   .fa-sun {
-    color: gold;
+    color: whitesmoke;
+    margin-top: 12px;
+    margin-left: 10px;
+    /* font-size: 12px; */
   }
   
 .checkbox-label .ball {
   background-color: whitesmoke;
-  width: 11px;
-  height: 11px;
+  width: 25px;
+  height: 25px;
   position: absolute;
   left: 2px;
-  top: 4.5px;
+  top: 5px;
   border-radius: 50%;
   transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .checkbox-label .ball {
-  transform: translateX(24px);
+  transform: translateX(27px);
   background-color: gold;
 }
   
@@ -2007,7 +2016,7 @@ h3 {
   #about {
     display: flex;
     flex-direction: column-reverse;
-    padding: 200px 70px 200px 70px;
+    padding: 200px 70px 0px 70px;
     align-items: center;
     justify-content: center;
     width: 100%;
