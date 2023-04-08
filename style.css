@@ -6,6 +6,7 @@
 
 body {
   background-color: lightslategray;
+  color: black;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -16,6 +17,7 @@ body {
 
 body.dark {
   background-color: black ;
+  color: whitesmoke;
 } 
 
 html {
@@ -370,12 +372,9 @@ h3 {
   background-position: center;
   background-size: 150px;
   width: 100%;
+  height: 100%;
   border-radius: 20px;
-  align-items: center;
-  justify-content: center;
   padding: 58px 48px 93px 50px;
-
-
   box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
@@ -400,7 +399,9 @@ h3 {
   justify-content: center;
   justify-items: center;
   width: 100%;
-
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
 }
 
 #contact {
@@ -842,6 +843,7 @@ h3 {
     background-position: center;
     background-size: 150px;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
@@ -872,7 +874,8 @@ h3 {
     justify-content: center;
     justify-items: center;
     width: 100%;
-  
+    height: 100%;
+
   }
   
   #contact {
@@ -1296,12 +1299,21 @@ h3 {
     display: grid;
     gap: 20px;
     margin-top: 50px;
-    grid-template-columns: 33% 33% 33% 33%;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 50% 50%;
     grid-gap: 25px;
     padding: 0px 100px 0px 100px;
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+
+  .card1 > h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    border-bottom: gold solid;
+    font-size: 20px;
   }
   
   .card1 {
@@ -1316,12 +1328,11 @@ h3 {
     background-position: center;
     background-size: 150px;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
     padding: 58px 48px 93px 50px;
-  
-  
     box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   }
@@ -1346,7 +1357,7 @@ h3 {
     justify-content: center;
     justify-items: center;
     width: 100%;
-  
+    height: 100%;
   }
   
   #contact {
@@ -1528,21 +1539,21 @@ h3 {
     margin-left: 20px;
   }
   
-.checkbox-label .ball {
-  background-color: whitesmoke;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 2px;
-  top: -1px;
-  border-radius: 50%;
-  transition: transform 0.2s linear;
-}
+  .checkbox-label .ball {
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 2px;
+    top: -1px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
 
-.checkbox:checked + .checkbox-label .ball {
-  transform: translateX(30px);
-  background-color: gold;
-}
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(30px);
+    background-color: gold;
+  }
   
   
   main {
@@ -1719,12 +1730,21 @@ h3 {
     background-position: center;
     background-size: 150px;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    padding: 58px 48px 93px 50px;
+    padding: 68px 58px 103px 60px;
     box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+
+  .card1 > h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 80px;
+    border-bottom: gold solid;
+    font-size: 18px;
   }
   
   .card-container > a {
@@ -1732,7 +1752,7 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
   }
   
   
@@ -1747,7 +1767,8 @@ h3 {
     justify-content: center;
     justify-items: center;
     width: 100%;
-  
+    height: 100%;
+
   }
   
   #contact {
@@ -1775,6 +1796,7 @@ h3 {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+    align-content: center;
   }
   
   .email {
@@ -1802,7 +1824,7 @@ h3 {
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 0.4em;
     padding:5px 10px;
-    text-align: center;
+    margin-left: 0px;
   }
   
   .whatsapp:hover {
@@ -2120,6 +2142,7 @@ h3 {
     background-position: center;
     background-size: 150px;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
@@ -2148,7 +2171,7 @@ h3 {
     justify-content: center;
     justify-items: center;
     width: 100%;
-  
+    height: 100%;
   }
   
   #contact {
