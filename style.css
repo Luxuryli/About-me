@@ -259,7 +259,7 @@ h1 {
   text-align: center;
 }
 
-.cv.cv:hover {
+.cv:hover {
   color: white;
   border-color: white;
 }
