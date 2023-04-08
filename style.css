@@ -379,6 +379,14 @@ h3 {
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
+.card1 > h3 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+  border-bottom: gold solid;
+  font-size: 20px;
+}
+
 .card-container > a {
   color: transparent;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -848,12 +856,18 @@ h3 {
     align-items: center;
     justify-content: center;
     padding: 58px 48px 93px 50px;
-  
-  
     box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   }
   
+  .card1 > h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    border-bottom: gold solid;
+    font-size: 20px;
+  }
+
   .card-container > a {
     color: transparent;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
